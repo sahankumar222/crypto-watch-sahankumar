@@ -46,7 +46,7 @@ const Register = () => {
                 </div>
             </form>
         </div>
-        <LoginPage/>
+        
         </>
     )
 }
