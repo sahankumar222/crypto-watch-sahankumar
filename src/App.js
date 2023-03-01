@@ -35,6 +35,7 @@ function App() {
         <Route exact path='/' component={LoginPage} />
         <Route path='/register' component={Register} />
         <Route path='/homepage' component={Homepage} />
+        <PrivateRoute path='/coins/:id' component={CoinPage} />
 
 
         {/* your private and public routes goes here */}

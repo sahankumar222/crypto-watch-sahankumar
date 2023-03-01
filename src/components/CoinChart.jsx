@@ -35,15 +35,17 @@ const CoinChart = ({ id }) => {
     const { currency, symbol } = CryptoState();
 
     const fetchChartData = async () => {
+        const {data}=await axios.get(HistoricalChart(id, period, currency));
 
         //fetch chart data here
 
         setFlag(true);
+        setHistoricalData(data.prices);
     }
 
     useEffect(() => {
 
-
+        fetchChartData();
     }, [currency, period])
 
 
