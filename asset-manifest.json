@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/crypto-watch-sahankumar/static/css/main.2865d55d.css",
-    "main.js": "/crypto-watch-sahankumar/static/js/main.495caf49.js",
+    "main.js": "/crypto-watch-sahankumar/static/js/main.81911cfa.js",
     "index.html": "/crypto-watch-sahankumar/index.html",
     "main.2865d55d.css.map": "/crypto-watch-sahankumar/static/css/main.2865d55d.css.map",
-    "main.495caf49.js.map": "/crypto-watch-sahankumar/static/js/main.495caf49.js.map"
+    "main.81911cfa.js.map": "/crypto-watch-sahankumar/static/js/main.81911cfa.js.map"
   },
   "entrypoints": [
     "static/css/main.2865d55d.css",
-    "static/js/main.495caf49.js"
+    "static/js/main.81911cfa.js"
   ]
 }
